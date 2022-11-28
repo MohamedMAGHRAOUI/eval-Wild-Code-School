@@ -1,0 +1,74 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    header{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 50px;
+      background: gold;
+    }
+    
+    header>figure{
+        margin: 10px 10px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    header>figure>img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    header>nav{
+      display: flex;
+      align-items: center;
+    }
+    header>nav>ul{
+      display: flex;
+      list-style: none;
+      margin-right: 0px;
+      
+    }
+    a{
+      text-decoration: none;
+            list-style: none;
+            color: black;
+            margin-right: 10px;
+    }
+
+    h1{
+        margin: 20px;
+    }
+
+    main{min-height: 100vh;
+     
+    }
+        
+        article{height: 500px;
+        padding: 5vh 0;}
+        
+        .format{ width: 60%;
+        margin: auto;
+        min-height: 400px;
+        background: black;
+        color: white;}
+        
+        .btn-perso{ background: paleturquoise;}
+        
+        .btn-perso:hover{background: green;
+        border: none;}
+        
+        .btn-danger:hover{background: green;
+        border: none;}
+        
+        .btn-primary:hover{background: green;
+        border: none;}
+        
+        .fa-linkedin,
+        .fa-github
+        {font-size: 20px;
+        color: white;}
+        
+        .indeed{color: white;}

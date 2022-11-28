@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Contact.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <figure>
+      <img src="assets/img/the-argo-logo-black.png" alt="Argo" /></figure>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" target="_blank" rel="noopener noreferrer"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="Royal.html" target="_blank" rel="noopener noreferrer"
+              >Royal Family</a
+            >
+          </li>
+          <li>
+            <a href="Royal asset.html" target="_blank" rel="noopener noreferrer"
+              >Royal Assets</a
+            >
+          </li>
+          <li>
+            <a href="Contact.html" target="_blank" rel="noopener noreferrer">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <h1>Contact the Royal Kingdom</h1>
+
+        <form action="contact.php" method="post">
+            <fieldset>
+              <legend>Name</legend>
+    
+              <input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="Votre Nom"
+              required
+              aria-placeholder="Votre Nom"
+            />
+        </fieldset>
+
+
+            <fieldset>
+                <legend>E-mail</legend>
+      
+                <input
+                type="email"
+                name="E-mail"
+                id="E-mail"
+                placeholder="Votre E-mail"
+                required
+                aria-placeholder="Votre E-mail"
+              />
+              </fieldset>
+
+              <fieldset>
+                <legend>Message</legend>
+
+              <textarea name="message" id="msg" required placeholder="Expliquer nous vos besoins ..."></textarea>
+            </fieldset>
+
+            <input type="submit" value="envoyer" />
+
+    </main>
+    
+</body>
+</html>
